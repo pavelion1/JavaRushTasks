@@ -7,13 +7,13 @@ package com.javarush.task.task03.task0315;
 public class Solution {
     public static void main(String[] args) {
         //напишите тут ваш код
-        System.out.println("Red");
-        System.out.println("Orange");
-        System.out.println("Yellow");
-        System.out.println("Green");
-        System.out.println("Blue");
-        System.out.println("Indigo");
-        System.out.println("Violet");
+        new Red();
+        new Orange();
+        new Yellow();
+        new Green();
+        new Blue();
+        new Indigo();
+        new Violet();
 
     }
 
