@@ -83,7 +83,9 @@ public class Game2048 extends Game {
                                 resetCell(x, y);
                                 cellValue1 = null;
                             } else {
-                                cellValue1 = null;
+                                cellValue1 = getCellValue(x, y);
+                                cellX = x;
+                                cellY = y;
                             }
                         }
                     }
