@@ -13,26 +13,20 @@ public class Solution {
         int dayNumber = Integer.parseInt(bufferedReader.readLine());
         if (dayNumber == 1)
             System.out.println("понедельник");
+        else if (dayNumber == 2)
+            System.out.println("вторник");
+        else if (dayNumber == 3)
+            System.out.println("среда");
+        else if (dayNumber == 4)
+            System.out.println("четверг");
+        else if (dayNumber == 5)
+            System.out.println("пятница");
+        else if (dayNumber == 6)
+            System.out.println("суббота");
+        else if (dayNumber == 7)
+            System.out.println("воскресенье");
         else
-            if (dayNumber == 2)
-                System.out.println("вторник");
-            else
-                if (dayNumber == 3)
-                    System.out.println("среда");
-                else
-                    if (dayNumber == 4)
-                        System.out.println("четверг");
-                    else
-                        if (dayNumber == 5)
-                            System.out.println("пятница");
-                        else
-                            if (dayNumber == 6)
-                                System.out.println("суббота");
-                            else
-                                if (dayNumber == 7)
-                                    System.out.println("воскресение");
-                                else
-                                            System.out.println("такого дня недели не существует");
+            System.out.println("такого дня недели не существует");
 
     }
 }
