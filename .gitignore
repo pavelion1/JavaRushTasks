@@ -5,10 +5,11 @@ target/
 .idea/
 .idea
 .repository/
+*.iml
 *.iws
 *.class
-*.info
 *.jar
 
+/out/
 /out.log
 /out.log.*
