@@ -10,10 +10,13 @@ import java.io.InputStreamReader;
 public class Solution {
     public static void main(String[] args) throws Exception {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        String name =  bufferedReader.readLine(); // Юля
-        int a = Integer.parseInt(bufferedReader.readLine()); // 17
+        String name =  bufferedReader.readLine();
+        int a = Integer.parseInt(bufferedReader.readLine());
         System.out.println("Подрости еще");
 
         }
 
-}
+
+
+    }
+
